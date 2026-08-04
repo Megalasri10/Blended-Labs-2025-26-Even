@@ -64,7 +64,7 @@ Snapshot 5: Configuring route table
 <img width="1920" height="1200" alt="Screenshot 2026-08-04 182727" src="https://github.com/user-attachments/assets/8f143f4d-087c-479c-b096-8e4cd7dc87c6" />
 
 
-Snapshot 6: Setting Internet gateway
+Snapshot 6: Instances
 <img width="1920" height="1200" alt="Screenshot 2026-08-04 183313" src="https://github.com/user-attachments/assets/55ef08a7-919e-4611-84bd-37e810116d76" />
 
 Result:
