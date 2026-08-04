@@ -1,7 +1,11 @@
 Ex 4 Deployment and configuration of a Private Cloud in AWS
+
 NAME: Megala M S
+
 REG NO: 212225040230
+
 Aim:
+
 To set up of a Private Cloud in AWS.
 
 Setting up of a private cloud in AWS: Setting up a private cloud within AWS, also known as a Virtual Private Cloud (VPC), involves creating a logically isolated virtual network that you can use to launch AWS resources. This provides you with full control over your virtual networking environment, including resource placement, connectivity, and security. Amazon Virtual Private Cloud (Amazon VPC) gives you full control over your virtual networking environment, including resource placement, connectivity, and security. Get started by setting up your VPC in the AWS service console. Next, add resources to it such as Amazon Elastic Compute Cloud (EC2) and Amazon Relational Database Service (RDS) instances. Finally, define how your VPCs communicate with each other across accounts, Availability Zones, or AWS Regions.
