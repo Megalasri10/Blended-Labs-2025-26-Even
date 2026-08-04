@@ -1,4 +1,4 @@
-Ex 4 Deployment and configuration of a Private Cloud in AWS
+Lab-2 Build a VPC and launching a webserver
 
 NAME: Megala M S
 
