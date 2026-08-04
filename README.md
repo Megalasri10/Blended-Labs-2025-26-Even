@@ -56,23 +56,16 @@ Snapshot 2: Configuring Subnets
 Snapshot 3: Configure Subnets
 <img width="1920" height="1200" alt="Screenshot 2026-08-04 182525" src="https://github.com/user-attachments/assets/7fc868b5-a2bb-4589-896f-349c44442255" />
 
-Snapshot 4: Setting Internet gateway
+Snapshot 4: Creating route table
 <img width="1920" height="1200" alt="Screenshot 2026-08-04 182632" src="https://github.com/user-attachments/assets/11a49425-2737-4002-8cca-6751e847bc75" />
 
 
-Snapshot 5: Creating Internet gateway
+Snapshot 5: Configuring route table
 <img width="1920" height="1200" alt="Screenshot 2026-08-04 182727" src="https://github.com/user-attachments/assets/8f143f4d-087c-479c-b096-8e4cd7dc87c6" />
 
 
 Snapshot 6: Setting Internet gateway
 <img width="1920" height="1200" alt="Screenshot 2026-08-04 183313" src="https://github.com/user-attachments/assets/55ef08a7-919e-4611-84bd-37e810116d76" />
-
-Snapshot 7: Creating route table
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 183648" src="https://github.com/user-attachments/assets/e1fbc67e-9a79-46b2-a3b3-be22116680d1" />
-
-
-Snapshot 8: Configuring route table
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 183924" src="https://github.com/user-attachments/assets/7be09ede-901e-4128-a6db-3b77f077d92f" />
 
 Result:
 Thus, a private cloud on AWS involves using VPCs has been created for a dedicated, isolated network where we can manage our resources and control access according to our requirements.
