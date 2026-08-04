@@ -1,76 +1,69 @@
-Lab-2 Build a VPC and launching a webserver
+Lab 3 – Introduction to Amazon Elastic Compute Cloud (EC2)
+Author
+Name: ________________________________
+Register Number: _____________________
+Date of Submission: __________________
+Objective
+The objective of this experiment is to understand the fundamentals of Amazon Elastic Compute Cloud (EC2). This lab focuses on launching and managing a virtual server, understanding instance types and AMIs, connecting to an EC2 instance, monitoring its status, and performing basic instance operations such as start, stop, and terminate.
 
-NAME: Megala M S
+Prerequisites
+Basic understanding of cloud computing concepts
+AWS account or AWS Academy Lab access
+Web browser with internet connectivity
+Basic knowledge of Linux commands (optional)
+Tools Used
+AWS Management Console
+Amazon EC2
+Key Pair
+Security Group
+SSH Client (PuTTY / Terminal)
+Tasks Performed
+Task 1: Explore Amazon EC2 Dashboard
+Explore the EC2 service dashboard in the AWS Management Console. Observe the different sections such as Instances, AMIs, Instance Types, Key Pairs, Security Groups, and Elastic IPs.
 
-REG NO: 212225040230
+Task 2: Launch an EC2 Instance
+Launch a new EC2 instance using Amazon Linux 2 AMI. Select an appropriate instance type (t2.micro) under the free tier. Configure basic settings such as instance name, key pair, and security group.
 
-Aim:
+Task 3: Configure Security Group
+Configure a security group to allow inbound access:
 
-To set up of a Private Cloud in AWS.
+SSH (Port 22) from your IP address
+HTTP (Port 80) from anywhere (0.0.0.0/0)
+This security group acts as a firewall for the instance.
 
-Setting up of a private cloud in AWS: Setting up a private cloud within AWS, also known as a Virtual Private Cloud (VPC), involves creating a logically isolated virtual network that you can use to launch AWS resources. This provides you with full control over your virtual networking environment, including resource placement, connectivity, and security. Amazon Virtual Private Cloud (Amazon VPC) gives you full control over your virtual networking environment, including resource placement, connectivity, and security. Get started by setting up your VPC in the AWS service console. Next, add resources to it such as Amazon Elastic Compute Cloud (EC2) and Amazon Relational Database Service (RDS) instances. Finally, define how your VPCs communicate with each other across accounts, Availability Zones, or AWS Regions.
+Task 4: Connect to EC2 Instance
+Connect to the running EC2 instance using SSH. Use the downloaded key pair and connect via terminal or PuTTY.
 
-Procedure:
-Plan Your VPC:
-● Determine your needs:
+For Amazon Linux:
 
-Define your use case, including application requirements, security needs, and compliance standards. ● Plan IP address ranges:
+ssh -i "keyname.pem" ec2-user@<Public-IP>
+Task 5: Perform Basic Instance Operations
+Perform the following operations from the EC2 console:
 
-Choose appropriate IP address ranges for your VPC and subnets to avoid conflicts. ● Select Availability Zones:
+Stop the instance
+Start the instance
+Reboot the instance
+Observe the state changes of the instance.
 
-Decide which Availability Zones (AZs) you'll use for your resources, considering redundancy and performance. ● Plan internet connectivity:
+Task 6: Monitor EC2 Instance
+Monitor the EC2 instance using the Monitoring tab. Observe metrics such as CPU utilization, network in/out, and instance status checks.
 
-Determine if you need public internet access and how to configure it. ● Define security:
+Task 7: Terminate EC2 Instance
+Terminate the EC2 instance after completing the experiment to avoid unnecessary AWS charges.
 
-Plan your security groups, network ACLs, and access controls to ensure a secure environment. Create Your VPC: • Sign in to AWS Management Console: Access the VPC console and navigate to the VPC dashboard.
+Workflow (Student Explanation)
+(Write the steps you followed in your own words)
 
-• Choose "Create VPC": Initiate the VPC creation process.
+Output Screenshots (Attach 3)
+Screenshot 1: EC2 Dashboard / Instance List
+(Insert Screenshot Here)
 
-• Configure VPC details: Enter the VPC name, CIDR block, Availability Zones, and other necessary settings.
+Screenshot 2: SSH Connection to Instance
+(Insert Screenshot Here)
 
-• Create subnets: Define subnets within your VPC to isolate different parts of your network.
+Screenshot 3: Instance Monitoring / Status
+(Insert Screenshot Here)
 
-• Create route tables: Specify how traffic is routed within and outside the VPC.
-
-• Create security groups: Define access control rules for your resources.
-
-Deploying Resources: • Launch EC2 instances: Create and launch virtual machines within your VPC.
-
-• Set up RDS instances: Deploy databases for your applications.
-
-• Configure networking: Connect your resources to the appropriate subnets, security groups, and route tables.
-
-• Deploy other AWS services: Integrate other services like S3 for storage and Lambda for serverless computing.
-
-Managing and Monitoring: • Use AWS CloudWatch: Monitor your VPC and resources for performance and health.
-
-• Configure logging and auditing: Track access and activity within your VPC for security and compliance.
-
-• Implement security best practices: Regularly review and update your security configuration.
-
-• Scale and adjust as needed: Adjust your VPC infrastructure to meet changing demands.
-
-Output:
-Snapshot 1: Create VPC image
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182121" src="https://github.com/user-attachments/assets/d4686861-051a-4797-94cc-b1ad813cdbc9" />
-
-Snapshot 2: Configuring Subnets
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182404" src="https://github.com/user-attachments/assets/adb8c2e2-5c12-44cc-a0d4-47e400c59d17" />
-
-Snapshot 3: Configure Subnets
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182525" src="https://github.com/user-attachments/assets/7fc868b5-a2bb-4589-896f-349c44442255" />
-
-Snapshot 4: Creating route table
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182632" src="https://github.com/user-attachments/assets/11a49425-2737-4002-8cca-6751e847bc75" />
-
-
-Snapshot 5: Configuring route table
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182727" src="https://github.com/user-attachments/assets/8f143f4d-087c-479c-b096-8e4cd7dc87c6" />
-
-
-Snapshot 6: Instances
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 183313" src="https://github.com/user-attachments/assets/55ef08a7-919e-4611-84bd-37e810116d76" />
-
-Result:
-Thus, a private cloud on AWS involves using VPCs has been created for a dedicated, isolated network where we can manage our resources and control access according to our requirements.
+Result
+This experiment provided hands-on experience with Amazon EC2 by demonstrating how to launch, connect, manage, and monitor a virtual server in AWS. It helped in understanding the concept of Infrastructure as a Service (IaaS) and how compute resources can be provisioned and controlled on demand in the cloud.
 
