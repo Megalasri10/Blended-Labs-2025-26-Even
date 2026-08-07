@@ -35,14 +35,16 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Explored IAM groups: EC2-Admin, EC2-Support, S3-Support  
 - Inspected managed and inline policies attached to groups  
 **Screenshot:**  
-(Add screenshot here)
+<img width="946" height="452" alt="image" src="https://github.com/user-attachments/assets/9ca0c064-b3dc-4ceb-a2bd-1b8f98ae1b03" />
+
 
 ### Task 2: Add Users to Groups
 - Added user-1 to the S3-Support group  
 - Added user-2 to the EC2-Support group  
 - Added user-3 to the EC2-Admin group  
 **Screenshot:**  
-(Add screenshot here)
+<img width="943" height="456" alt="image" src="https://github.com/user-attachments/assets/f5cbdf37-7ef5-402c-b322-35940c5a0f13" />
+
 
 ### Task 3: Test IAM User Permissions
 - Logged in using IAM sign-in URL  
@@ -50,7 +52,8 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Verified EC2 read-only access for user-2  
 - Verified EC2 administrative access for user-3  
 **Screenshot:**  
-(Add screenshot here)
+<img width="939" height="443" alt="image" src="https://github.com/user-attachments/assets/ca73545c-9d06-4350-8f53-ef766f93619c" />
+
 
 
 ## Workflow
@@ -67,14 +70,6 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Gained practical experience implementing role-based access control.  
 - Verified permission enforcement through real-time service testing.
 
-Output:
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182121" src="https://github.com/user-attachments/assets/a69c4832-d12d-403b-9c7c-8e4b0da954b2" />
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182404" src="https://github.com/user-attachments/assets/c62c33e5-2a38-436d-bc93-4e37efb78066" />
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182525" src="https://github.com/user-attachments/assets/54c6386d-3438-4646-8665-67af2c0bf482" />
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182632" src="https://github.com/user-attachments/assets/f3931c8f-bc35-4da5-b8b5-5a83d0340577" />
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 182727" src="https://github.com/user-attachments/assets/7a97208d-1ee6-44bc-a4b5-69ca2a8d2f88" />
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 183313" src="https://github.com/user-attachments/assets/19bf0217-ecb4-4f07-9ec9-05e633043028" />
-<img width="1920" height="1200" alt="Screenshot 2026-08-04 183648" src="https://github.com/user-attachments/assets/7254a946-5246-4774-a060-d0a0ab49e7d1" />
 
 ## Conclusion
 
