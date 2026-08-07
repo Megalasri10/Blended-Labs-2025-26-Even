@@ -2,9 +2,8 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Megala M S
+* **Register Number**: 212225040230
 
 ---
 
@@ -85,33 +84,51 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.Create a VPC with a suitable IPv4 CIDR block, such as 10.0.0.0/16.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.Create a public subnet inside the VPC, such as 10.0.1.0/24.
 
+3.Create and attach an Internet Gateway (IGW) to the VPC to provide internet connectivity.
+
+4.Create a route table and add a route 0.0.0.0/0 through the Internet Gateway.
+
+5.Associate the route table with the public subnet.
+
+6.Launch an EC2 instance in the public subnet and enable a public IPv4 address.
+
+7.Configure the security group to allow SSH (port 22) and HTTP (port 80) traffic.
+
+8.Connect to the EC2 instance using SSH or EC2 Instance Connect.
+
+9.Install and start the Apache HTTP web server on the EC2 instance.
+
+10.Create a simple HTML webpage and place it in the Apache web server's document directory.
+
+11.Access the webpage using the EC2 instance's public IPv4 address in a web browser.
+
+12.Verify the output and capture screenshots of the VPC/subnet, running EC2 instance, and web server webpage.
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
-
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182121" src="https://github.com/user-attachments/assets/d695cbb2-e31e-454d-ab94-990c2d8f39cf" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182404" src="https://github.com/user-attachments/assets/f2a98cf1-1a45-4a0a-a63d-70417cff018e" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182525" src="https://github.com/user-attachments/assets/79f96956-2a94-4d52-911c-30e8dc997643" />
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182632" src="https://github.com/user-attachments/assets/65e35b75-5123-4c8a-83f9-ce89a9a90440" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182727" src="https://github.com/user-attachments/assets/0790e8ca-c56a-4f38-93bb-8c2251756654" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 183313" src="https://github.com/user-attachments/assets/a70e316b-7dab-4ded-be37-fe321374fea1" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 183648" src="https://github.com/user-attachments/assets/25ab8ea5-509f-46c0-b5f3-aa3d5a188150" />
 
-(Insert Screenshot Here)
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
-
-(Insert Screenshot Here)
+<img width="1311" height="657" alt="image" src="https://github.com/user-attachments/assets/8ee3bd8c-0edc-437d-b779-22dc7f3861ba" />
 
 ---
 
