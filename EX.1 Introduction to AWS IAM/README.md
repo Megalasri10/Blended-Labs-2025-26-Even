@@ -58,7 +58,19 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Understood the role of IAM in AWS security.  
 - Learned how IAM users, groups, and policies interact.  
 - Gained practical experience implementing role-based access control.  
-- Verified permission enforcement through real-time service testing.  
+- Verified permission enforcement through real-time service testing.
+
+Output:
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182121" src="https://github.com/user-attachments/assets/a69c4832-d12d-403b-9c7c-8e4b0da954b2" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182404" src="https://github.com/user-attachments/assets/c62c33e5-2a38-436d-bc93-4e37efb78066" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182525" src="https://github.com/user-attachments/assets/54c6386d-3438-4646-8665-67af2c0bf482" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182632" src="https://github.com/user-attachments/assets/f3931c8f-bc35-4da5-b8b5-5a83d0340577" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 182727" src="https://github.com/user-attachments/assets/7a97208d-1ee6-44bc-a4b5-69ca2a8d2f88" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 183313" src="https://github.com/user-attachments/assets/19bf0217-ecb4-4f07-9ec9-05e633043028" />
+<img width="1920" height="1200" alt="Screenshot 2026-08-04 183648" src="https://github.com/user-attachments/assets/7254a946-5246-4774-a060-d0a0ab49e7d1" />
+
+
+
 
 
 ## Conclusion
