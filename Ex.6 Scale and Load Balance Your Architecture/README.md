@@ -1,6 +1,9 @@
 # Lab 6 – Scale and Load Balance Your Architecture
+
 Author
+
 Name: Megala M S
+
 Register Number: 212225040230
 
 ## Title
