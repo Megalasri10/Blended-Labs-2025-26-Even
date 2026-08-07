@@ -1,4 +1,11 @@
 # Lab 1 - Introduction to AWS Identity and Access Management (IAM)
+## Author
+
+**Name:** Megala M S
+
+**Reg No:** 212225040230
+
+**Course:** Introduction to Cloud Computing
 
 ## Title
 Introduction to AWS Identity and Access Management (IAM)
@@ -69,15 +76,10 @@ Output:
 <img width="1920" height="1200" alt="Screenshot 2026-08-04 183313" src="https://github.com/user-attachments/assets/19bf0217-ecb4-4f07-9ec9-05e633043028" />
 <img width="1920" height="1200" alt="Screenshot 2026-08-04 183648" src="https://github.com/user-attachments/assets/7254a946-5246-4774-a060-d0a0ab49e7d1" />
 
-
-
-
-
 ## Conclusion
+
 This lab provided hands-on experience with AWS IAM by demonstrating how organizations manage secure access to cloud resources. Assigning users to groups with predefined policies simplified permission management and ensured role-based access control across AWS services.
 
 
-## Author
-**Name:** Your Name and (Reg No)
-**Course:** Introduction to Cloud Computing  
+  
 
